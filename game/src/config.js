@@ -61,7 +61,7 @@ export const PALETTE = {
   counterTop: '#48566b',
   cone: 'rgba(255, 190, 60, 0.20)',
   coneAlert: 'rgba(255, 80, 60, 0.32)',
-  camCone: 'rgba(80, 200, 255, 0.16)',
+  camCone: 'rgba(80, 200, 255, 0.22)',
   camConeAlert: 'rgba(255, 90, 90, 0.30)',
   guard: '#c94f42',
   guardDark: '#8f332a',

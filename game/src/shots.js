@@ -60,7 +60,7 @@ export function stageShot(name, game) {
     s.loot[1].taken = true;
     s.lootTaken = 1;
     placeGuard(s, 0, 640, 445, 0);
-    placeGuard(s, 1, 640, 160, Math.PI);
+    placeGuard(s, 1, 700, 160, Math.PI);
     placeGuard(s, 2, 640, 560, Math.PI / 2);
     aimCamera(s, 0, Math.PI / 2 - 0.5);
     aimCamera(s, 1, -Math.PI / 2 + 0.5);

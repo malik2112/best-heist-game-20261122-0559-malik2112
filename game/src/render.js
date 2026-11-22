@@ -381,11 +381,12 @@ export function createRenderer(canvas) {
       ctx.fill();
     }
 
-    for (const cam of state.cameras) drawCamera(ctx, cam);
     for (const g of state.guards) drawGuard(ctx, g);
     drawPlayer(ctx, state.player);
 
     drawHUD(state, best);
+    // camera mounts last so the icons stay readable over the HUD bar
+    for (const cam of state.cameras) drawCamera(ctx, cam);
 
     if (screen === SCREEN_TITLE) {
       overlay('VAULT OF THE SUNKEN LEDGER', [
